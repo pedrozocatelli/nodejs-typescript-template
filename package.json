@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "ts-node-dev --no-notify --inspect --transpile-only --ignore-watch node_modules src/server.ts",
-    "start": "ts-node src/server.ts"
+    "start": "ts-node src/server.ts",
+    "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -24,7 +25,9 @@
     "eslint-import-resolver-typescript": "^2.2.0",
     "eslint-plugin-import": "^2.21.2",
     "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.4.2",
     "prettier": "^2.0.5",
+    "ts-jest": "^26.4.1",
     "ts-node-dev": "^1.0.0-pre.56",
     "typescript": "^3.9.7"
   }
